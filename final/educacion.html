@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<meta name="viewport" content="width=device-width,user-scalable=no">
+<meta name="author" content="Alfonso Romo">
+    <title>HOJA DE VIDA</title>
+  </head>
+  <body>
+  <img width="150px" src="../final/imagen/logo.svg" alt="">
+    <h1 center>Hoja de Vida</h1>
+    <h2>Alfonso Javier Romo Lavanda</h2>
+    <h3>19 de febrero de 1985<br>Loja Ecuador</h3>
+    <nav>
+      <a href="../final/index.html">Inicio</a>
+      <a href="../final/educacion.html">Educacion</a>
+      <a href="../final/experiencia.html">Experiencia</a>
+    </nav>
+    <h2>Educación</h2><br>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Año</th>
+          <th>Institución</th>
+          <th>Lugar</th>
+          <th>Culminó?</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2010</td>
+          <td>Universidad Nacional de Loja</td>
+          <td>Loja</td>
+          <td>2012</td>
+        </tr>
+        <tr>
+          <td>2012</td>
+          <td>Universidad Internacional del Ecuador</td>
+          <td>Loja</td>
+          <td>2014</td>
+        </tr>
+        <tr>
+          <td>2014</td>
+          <td>UTPL</td>
+          <td>Loja</td>
+          <td>2016</td>
+        </tr>
+      </tbody>
+    </table>
+    <form name="Agregar Educación" action="index.html" method="post" autocomplete="on">
+        <legend><h2>Agregar Educación</h2></legend>
+        <p>Año
+          <select name="Año">
+            <option value="1">2017</option>
+            <option value="2">2016</option>
+            <option value="3">2015</option>
+            <option value="4">2014</option>
+            <option value="5">2013</option>
+            <option value="6">2012</option>
+            <option value="7">2011</option>
+          </select><br>
+          Institución:<input type="textbox" name="institucion" value=""required>
+        </p>
+        <p>Lugar: <input type="textarea" name="lugar" value=""required><br>
+          ¿Culmino?:<input type="radio" name="gender" value="male"> Si
+          <input type="radio" name="gender" value="female"> No
+        </p>
+        <p> <input type="submit"  value="Enviar">
+        </p>
+    </form>
+    </body>
+    <footer>correo alfonjavir@gmail.com telefono: +593 99-448-9118</footer>
+</html>
